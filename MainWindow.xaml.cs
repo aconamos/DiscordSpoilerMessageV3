@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace DiscordSpoilerMessageV3
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    // Interaction logic for MainWindow.xaml
     
     public partial class MainWindow : Window
     {
@@ -33,7 +31,7 @@ namespace DiscordSpoilerMessageV3
         public MainWindow()
         {
             InitializeComponent();
-            LogBox = logBox;
+            LogBox = logBox; // This needs to be here so that LogBox gets the reference to the instance that we want.
         }
 
         private void InputBox_TextChanged(object sender, TextChangedEventArgs e)
