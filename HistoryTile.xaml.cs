@@ -18,8 +18,6 @@ namespace DiscordSpoilerMessageV3
     /// </summary>
     public partial class HistoryTile : UserControl
     {
-        public readonly Spoilerinator spoilerinator = new Spoilerinator();
-
         public HistoryTile()
         {
             InitializeComponent();

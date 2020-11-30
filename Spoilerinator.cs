@@ -1,6 +1,6 @@
 ﻿namespace DiscordSpoilerMessageV3
 {
-    public class Spoilerinator
+    public static class Spoilerinator
     {
         public static string Spoil(string input)
         {

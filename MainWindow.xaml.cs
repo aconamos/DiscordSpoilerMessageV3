@@ -42,7 +42,7 @@ namespace DiscordSpoilerMessageV3
 
         private void CopyButton_Click(object sender, RoutedEventArgs e)
         {
-            Clipboard.SetText(Spoilerinator.Spoil(InputBox.Text));
+            Copier.CopyText(Spoilerinator.Spoil(InputBox.Text));
             AddToLogBox($"Copied text {Spoilerinator.Spoil(InputBox.Text)} to clipboard.");
         }
     }
